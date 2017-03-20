@@ -1,0 +1,55 @@
+body {
+  width: 60%;
+  margin: 20px auto 100px auto;
+  font-family: 'Lato', sans-serif;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav li {
+  float: left;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+nav li a {
+  color: #000;
+}
+
+.item {
+  padding: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.element {
+  width: 30%;
+  float: left;
+}
+
+.element img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+button.with-text {
+  font-size: 1.8em;
+}
+
+.code {
+  background-color: #ccc;
+  border: 1px solid #555;
+  padding: 10px;
+  font-family: monospace;
+  width: auto;
+  float: left;
+}
